@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="Proyecto10b_Assets.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.0884541"
+     inkscape:cx="302.85558"
+     inkscape:cy="572.91179"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Logo"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect2"
+       style="fill:#7f7f7f;stroke:#000000;stroke-width:2.64583;stroke-linecap:round"
+       d="m 51.759396,138.04759 c 3.081805,-0.40613 19.528022,0 19.528022,0 v 5.81111 c 0,0 -17.592935,-0.0717 -19.528022,0 -1.935087,0.0717 -3.081805,-5.40498 0,-5.81111 z"
+       sodipodi:nodetypes="zcczz" />
+    <path
+       id="path1"
+       style="fill:#7f7f7f;stroke:#000000;stroke-width:2.64583;stroke-linecap:round;fill-opacity:1"
+       d="m 114.67181,137.9884 c 0,0.45285 -0.13344,4.14705 -0.12932,4.69756 0.0357,4.7708 -11.83693,5.6516 -22.80504,5.6516 -10.138768,0 -22.592478,-1.32533 -22.851431,-5.31194 -0.06278,-0.96649 -0.08293,-4.36321 -0.08293,-5.03722 0,-3.37768 10.268064,-6.11583 22.934363,-6.11583 12.6663,0 22.93436,2.73815 22.93436,6.11583 z"
+       sodipodi:nodetypes="sssssss" />
+    <ellipse
+       style="fill:#474747;stroke:#000000;stroke-width:2.64583;stroke-linecap:round;stroke-dasharray:none;fill-opacity:1"
+       id="path2"
+       cx="91.66008"
+       cy="136.59482"
+       rx="22.805216"
+       ry="4.7637568" />
+  </g>
+</svg>
