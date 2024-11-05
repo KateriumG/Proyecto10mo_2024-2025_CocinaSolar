@@ -1,13 +1,9 @@
 body {
-    background-color: darksalmon;
+    background-color: rgb(155, 168, 242);
 }
 
 h1 {
-    background-color: aqua;
-    border-radius: 50%;
-    padding: 2%;
     font-size: 50px;
-    color: red;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -17,4 +13,12 @@ h4 {
     font-size: 35px;
     padding-right: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imgStart {
+    border: solid 10px black;
+    float: right; 
+    border-radius: 20%;
+    height: 200px;
+    width: 250px;
 }
