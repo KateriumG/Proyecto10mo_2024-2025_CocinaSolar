@@ -6,8 +6,10 @@ function ChangeCreditsV() {
     if (CreditVisible == false) {
         credits.style.display = "block";
         CreditVisible = true;
+        creditsbutton.style.marginBottom = "10px";
     } else {
         credits.style.display = "none";
         CreditVisible = false;
+        creditsbutton.style.marginBottom = "250px";
     }
 }
