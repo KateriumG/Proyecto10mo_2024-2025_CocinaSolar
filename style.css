@@ -18,6 +18,7 @@ h4 {
 
 p {
     text-align: justify;
+}
 
 .imgStart {
     border: solid 10px black;
@@ -66,4 +67,12 @@ p {
 
 label {
     font-weight: bold;
+}
+
+#Credits {
+    display: none;
+}
+
+#CreditsButton {
+    text-align: center;
 }
