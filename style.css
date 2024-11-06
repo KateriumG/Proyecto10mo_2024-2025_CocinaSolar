@@ -48,5 +48,13 @@ p {
 }
 
 .Pegamento {
-    
+
+}
+
+#Credits {
+    display: none;
+}
+
+#CreditsButton {
+    text-align: center;
 }
