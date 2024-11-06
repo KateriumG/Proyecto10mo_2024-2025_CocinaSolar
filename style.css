@@ -43,5 +43,23 @@ h4 {
 }
 
 .Pegamento {
-    
+    border: solid 10px black;
+    border-radius: 20%;
+    height: 200px;
+    width: 200px;
+}
+
+.Superficie {
+    border: solid 10px black;
+    border-radius: 20%;
+    height: 250px;
+    width: 250px;
+}
+
+.EncuestaT {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
 }
