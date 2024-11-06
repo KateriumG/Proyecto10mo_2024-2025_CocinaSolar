@@ -1,4 +1,6 @@
-let a = "Aeiou";
-let b = " y ";
-let c = "Abcd";
-console.log(a+b+c);
+
+
+function ChangeCreditsV() {
+    var credits = document.getElementById("Credits");
+    credits.style.display = "block";
+}
