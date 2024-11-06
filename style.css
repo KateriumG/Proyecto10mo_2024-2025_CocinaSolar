@@ -27,8 +27,25 @@ p {
     width: 250px;
 }
 
-.img2 {
+.Poliestireno {
     border: solid 10px black;
     border-radius: 20%;
+}
 
+.CajaCarton {
+    border: solid 10px black;
+    border-radius: 20%;
+    height: 200px;
+    width: 250px;
+}
+
+.PapelAluminio {
+    border: solid 10px black;
+    border-radius: 20%;
+    height: 180px;
+    width: 250px;
+}
+
+.Pegamento {
+    
 }
