@@ -1,11 +1,19 @@
 body {
     background-image: url('webpagebackground.svg');
     background-size: cover;
+    padding: 0;
+    margin: 0;
 }
 
 header {
     background-color: #6f82eb;
+    top: 0;
+}
+
+mark {
+  background-color: #6f82eb;
     border-radius: 10px;
+    padding: 10px;
 }
 
 h1 {
@@ -27,44 +35,51 @@ p {
 }
 
 .imgStart {
-    border: solid 10px black;
+    border: solid 2px black;
     float: right; 
     border-radius: 20%;
     height: 200px;
     width: 250px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    margin-left: 25px;
 }
 
 .Poliestireno {
-    border: solid 10px black;
+    border: solid 2px black;
     border-radius: 20%;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
 .CajaCarton {
-    border: solid 10px black;
+    border: solid 2px black;
     border-radius: 20%;
     height: 200px;
     width: 250px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
 .PapelAluminio {
-    border: solid 10px black;
+    border: solid 2px black;
     border-radius: 20%;
     height: 180px;
     width: 250px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
 .Pegamento {
-    border: solid 10px black;
+    border: solid 2px black;
     border-radius: 20%;
     height: 200px;
     width: 200px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
 .Superficie {
-    border: solid 10px black;
+    border: solid 2px black;
     border-radius: 20%;
     height: 250px;
     width: 250px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
 .EncuestaT {
@@ -82,4 +97,8 @@ label {
 #CreditsButton {
     text-align: center;
     margin-bottom: 250px;
+}
+
+.letra {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
