@@ -1,9 +1,10 @@
 body {
-    background-color: rgb(155, 168, 242);
+    background-image: url('webpagebackground.svg');
+    background-size: cover;
 }
 
 header {
-    background-color: rgb(188, 150, 222);
+    background-color: #6f82eb;
     border-radius: 10px;
 }
 
