@@ -2,6 +2,11 @@ body {
     background-color: rgb(155, 168, 242);
 }
 
+header {
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
 h1 {
     font-size: 50px;
     text-align: center;
