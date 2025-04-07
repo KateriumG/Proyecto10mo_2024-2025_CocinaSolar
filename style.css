@@ -6,6 +6,7 @@
 body {
     background-image: url('webpagebackground.svg');
     background-size: cover;
+    align-items: center;
     padding: 0;
     margin: 0;
 }
@@ -57,8 +58,6 @@ p {
 }
 
 .imgStart {
-    border: solid 2px black;
-    float: right; 
     border-radius: 20%;
     height: 200px;
     width: 250px;
@@ -123,4 +122,17 @@ label {
 
 .letra {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imagenes1 {
+    text-align: center;
+    background-color: #6f82eb;
+    width: 390px;
+    margin-left: 33%;
+    padding: 0;
+    border-radius: 45px;
+}
+
+#controles {
+    text-align: center;
 }
