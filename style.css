@@ -18,6 +18,12 @@ header {
     padding-top: 5px;
 }
 
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 mark {
     background-color: #6f82eb;
     border-radius: 10px;
@@ -38,13 +44,6 @@ mark {
     box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
-h1 {
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-
 h4 {
     text-align: center;
     font-size: 35px;
@@ -63,10 +62,19 @@ table {
 
 h1, h3, h4 {
     margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p {
     text-align: justify;
+}
+
+p, th {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th {
+    text-align: center;
 }
 
 #imgStart {
@@ -75,9 +83,6 @@ p {
     width: 250px;
     box-shadow: 0 4px 8px rgb(0, 0, 0);
     margin-left: 25px;
-}
-
-#Poliestireno {
 }
 
 #CajaCarton {
@@ -124,10 +129,6 @@ label {
 #CreditsButton {
     text-align: center;
     margin-bottom: 250px;
-}
-
-.letra {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #imagenes1 {
