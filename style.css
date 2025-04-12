@@ -15,6 +15,7 @@ header {
     background-color: #6f82eb;
     top: 0;
     margin-bottom: 50px;
+    padding-top: 5px;
 }
 
 mark {
@@ -23,12 +24,18 @@ mark {
     padding: 10px;
 }
 
-th {
+.items {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     background-color:#5a6fe7;
     border: 0;
-    border-radius: 10%;
+    border-radius: 10% 0 0 10%;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+.imgitems {
+    border-radius: 0 20% 20% 0;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
 h1 {
@@ -62,7 +69,7 @@ p {
     text-align: justify;
 }
 
-.imgStart {
+#imgStart {
     border-radius: 20%;
     height: 200px;
     width: 250px;
@@ -70,42 +77,27 @@ p {
     margin-left: 25px;
 }
 
-.Poliestireno {
-    border: solid 2px black;
-    border-radius: 20%;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
+#Poliestireno {
 }
 
-.CajaCarton {
-    border: solid 2px black;
-    border-radius: 20%;
+#CajaCarton {
     height: 200px;
     width: 250px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
-.PapelAluminio {
-    border: solid 2px black;
-    border-radius: 20%;
+#PapelAluminio {
     height: 180px;
     width: 250px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
-.Pegamento {
-    border: solid 2px black;
-    border-radius: 20%;
+#Pegamento {
     height: 200px;
     width: 200px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
-.Superficie {
-    border: solid 2px black;
-    border-radius: 20%;
+#Superficie {
     height: 250px;
     width: 250px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
 .EncuestaCuadro {
@@ -140,9 +132,10 @@ label {
 
 #imagenes1 {
     text-align: center;
+    margin: 0 auto;
+    
     background-color: #6f82eb;
     width: 390px;
-    margin-left: 33%;
     padding: 0;
     border-radius: 45px;
 }
