@@ -19,7 +19,10 @@ function ChangeCreditsV() {
 function ChangeSolarIndex(number){
     imgStart = document.getElementById("imgStart");
     SolarIndex += number;
-    document.getElementById("imgStart").scr = "Assets/CocinasSolares/CocinaSolar5.webp";
-    
-    console.log("imgStart");
+    if (SolarIndex >= SolarImages.length) {
+        SolarIndex = 0;
+    } else if(SolarIndex < 0) {
+        SolarIndex = SolarImages.length - 1;
+    }
+    imgStart.src = SolarImages[SolarIndex];
 }
