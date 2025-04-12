@@ -1,5 +1,5 @@
 let CreditVisible = false;
-let SolarImages = ["Assets/Cocinas Solares/CocinaSolar1.jpg", "Assets/Cocinas Solares/CocinaSolar2.jpeg", "Assets/Cocinas Solares/CocinaSolar3.jpeg", "Assets/Cocinas Solares/CocinaSolar4.jpeg", "Assets/Cocinas Solares/CocinaSolar5.webp"];
+let SolarImages = ["Assets/CocinasSolares/CocinaSolar1.jpg", "Assets/CocinasSolares/CocinaSolar2.jpeg", "Assets/CocinasSolares/CocinaSolar3.jpeg", "Assets/CocinasSolares/CocinaSolar4.jpeg", "Assets/CocinasSolares/CocinaSolar5.webp"];
 let SolarIndex = 0;
 
 function ChangeCreditsV() {
@@ -17,5 +17,9 @@ function ChangeCreditsV() {
 }
 
 function ChangeSolarIndex(number){
+    imgStart = document.getElementById("imgStart");
+    SolarIndex += number;
+    document.getElementById("imgStart").scr = "Assets/CocinasSolares/CocinaSolar5.webp";
     
+    console.log("imgStart");
 }
