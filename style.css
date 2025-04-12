@@ -15,6 +15,13 @@ header {
     background-color: #6f82eb;
     top: 0;
     margin-bottom: 50px;
+    padding-top: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 mark {
@@ -23,26 +30,25 @@ mark {
     padding: 10px;
 }
 
-th {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    background-color:#5a6fe7;
-    border: 0;
-    border-radius: 10%;
-}
-
-h1 {
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-
 h4 {
     text-align: center;
     font-size: 35px;
     padding-right: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.items {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color:#5a6fe7;
+    border: 0;
+    border-radius: 10% 0 0 10%;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+.imgitems {
+    border-radius: 0 20% 20% 0;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
 table {
@@ -56,13 +62,22 @@ table {
 
 h1, h3, h4 {
     margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p {
     text-align: justify;
 }
 
-.imgStart {
+p, th {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th {
+    text-align: center;
+}
+
+#imgStart {
     border-radius: 20%;
     height: 200px;
     width: 250px;
@@ -70,42 +85,24 @@ p {
     margin-left: 25px;
 }
 
-.Poliestireno {
-    border: solid 2px black;
-    border-radius: 20%;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
-}
-
-.CajaCarton {
-    border: solid 2px black;
-    border-radius: 20%;
+#CajaCarton {
     height: 200px;
     width: 250px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
-.PapelAluminio {
-    border: solid 2px black;
-    border-radius: 20%;
+#PapelAluminio {
     height: 180px;
     width: 250px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
-.Pegamento {
-    border: solid 2px black;
-    border-radius: 20%;
+#Pegamento {
     height: 200px;
     width: 200px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
-.Superficie {
-    border: solid 2px black;
-    border-radius: 20%;
+#Superficie {
     height: 250px;
     width: 250px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
 }
 
 .EncuestaCuadro {
@@ -134,19 +131,17 @@ label {
     margin-bottom: 250px;
 }
 
-.letra {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 #imagenes1 {
     text-align: center;
+    margin: 0 auto;
+    
     background-color: #6f82eb;
     width: 390px;
-    margin-left: 33%;
     padding: 0;
     border-radius: 45px;
 }
 
 #controles {
     text-align: center;
+    padding: 20px;
 }
