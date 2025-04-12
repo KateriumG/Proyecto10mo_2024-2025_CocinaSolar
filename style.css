@@ -30,6 +30,13 @@ mark {
     padding: 10px;
 }
 
+h4 {
+    text-align: center;
+    font-size: 35px;
+    padding-right: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .items {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
@@ -42,13 +49,6 @@ mark {
 .imgitems {
     border-radius: 0 20% 20% 0;
     box-shadow: 0 4px 8px rgb(0, 0, 0);
-}
-
-h4 {
-    text-align: center;
-    font-size: 35px;
-    padding-right: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 table {
@@ -143,4 +143,5 @@ label {
 
 #controles {
     text-align: center;
+    padding: 20px;
 }
